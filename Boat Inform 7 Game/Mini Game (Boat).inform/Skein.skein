@@ -1,0 +1,330 @@
+<?xml version="1.0"?>
+
+<Skein rootNode="node-1002">
+    <generator>Inform Mac Client (Inform version 1.65/6.33/6M62)</generator>
+    <item nodeId="node-1002">
+        <command xml:space="preserve">Mini Game (Boat)</command>
+        <result xml:space="preserve">
+
+
+You wake up on the deck of a medium sized boat. You don't see your captor, but he's either close or has left you here to die. You need to get off this boat.
+
+Mini Game (Boat)
+An Interactive Fiction by bscott19
+Release 1 / Serial number 190213 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
+
+Deck
+You are on a small boat deck. There are sails and fuel and pumps at the bow, a staircase leading down on the starbord side, and a small powered raft at the stern. Many nooks and crannies for things to be hidden. There is blue ocean for days in all directions.
+
+Be sure to have proper supplies to be at sea for days before you find shore. Hint there may be a leak in the raft, find a way to keep water out too.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1003"></child>
+            <child nodeId="node-1016"></child>
+            <child nodeId="node-1018"></child>
+        </children>
+    </item>
+    <item nodeId="node-1018">
+        <command xml:space="preserve">x sails</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1019"></child>
+        </children>
+    </item>
+    <item nodeId="node-1019">
+        <command xml:space="preserve">x raft</command>
+        <result xml:space="preserve">You see nothing special about Escape Raft.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1020"></child>
+        </children>
+    </item>
+    <item nodeId="node-1020">
+        <command xml:space="preserve">d</command>
+        <result xml:space="preserve">
+Galley
+You are now in the hull of the boat. At the base of the stairs there is a bed, small office area, and kitchen, all in a studio layout. The Deck is upstairs
+
+On the Desk is Note.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1021"></child>
+        </children>
+    </item>
+    <item nodeId="node-1021">
+        <command xml:space="preserve">x note</command>
+        <result xml:space="preserve">You see nothing special about Note.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1022"></child>
+        </children>
+    </item>
+    <item nodeId="node-1022">
+        <command xml:space="preserve">read note</command>
+        <result xml:space="preserve">You see nothing special about Note.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1023"></child>
+        </children>
+    </item>
+    <item nodeId="node-1023">
+        <command xml:space="preserve">take note</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1024"></child>
+        </children>
+    </item>
+    <item nodeId="node-1024">
+        <command xml:space="preserve">x desk</command>
+        <result xml:space="preserve">You see nothing special about the Desk.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1025"></child>
+        </children>
+    </item>
+    <item nodeId="node-1025">
+        <command xml:space="preserve">x kitchen</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1026"></child>
+        </children>
+    </item>
+    <item nodeId="node-1026">
+        <command xml:space="preserve">x bed</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1027"></child>
+        </children>
+    </item>
+    <item nodeId="node-1027">
+        <command xml:space="preserve">x filing cabinet</command>
+        <result xml:space="preserve">There is a single drawer in this filing cabinet, and it doesn't appear to be locked.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1028"></child>
+        </children>
+    </item>
+    <item nodeId="node-1028">
+        <command xml:space="preserve">open cabinet</command>
+        <result xml:space="preserve">You open Filing cabinet, revealing Key.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1029"></child>
+        </children>
+    </item>
+    <item nodeId="node-1029">
+        <command xml:space="preserve">x key</command>
+        <result xml:space="preserve">Regular sized key that says OCEAN EXPLORER on it. You think that was the name of the small raft up on the deck.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1030"></child>
+        </children>
+    </item>
+    <item nodeId="node-1030">
+        <command xml:space="preserve">take key</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1031"></child>
+        </children>
+    </item>
+    <item nodeId="node-1031">
+        <command xml:space="preserve">x pantry</command>
+        <result xml:space="preserve">Large pantry with plenty of non-perishable food to keep you fed on a journey. Too bad it's bolted shut.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1032"></child>
+        </children>
+    </item>
+    <item nodeId="node-1032">
+        <command xml:space="preserve">unlock pantry with key</command>
+        <result xml:space="preserve">That doesn't seem to be something you can unlock.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1033"></child>
+        </children>
+    </item>
+    <item nodeId="node-1033">
+        <command xml:space="preserve">open pantry</command>
+        <result xml:space="preserve">You open Pantry, revealing Granola Bars, Water Flask and Can of Green Beans.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1034"></child>
+        </children>
+    </item>
+    <item nodeId="node-1034">
+        <command xml:space="preserve">take all</command>
+        <result xml:space="preserve">Granola Bars: Taken.
+Water Flask: Taken.
+Can of Green Beans: Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1035"></child>
+        </children>
+    </item>
+    <item nodeId="node-1035">
+        <command xml:space="preserve">u</command>
+        <result xml:space="preserve">
+Deck
+You are on a small boat deck. There are sails and fuel and pumps at the bow, a staircase leading down on the starbord side, and a small powered raft at the stern. Many nooks and crannies for things to be hidden. There is blue ocean for days in all directions.
+
+Be sure to have proper supplies to be at sea for days before you find shore. Hint there may be a leak in the raft, find a way to keep water out too.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1036"></child>
+        </children>
+    </item>
+    <item nodeId="node-1036">
+        <command xml:space="preserve">get in raft</command>
+        <result xml:space="preserve">You can't get into the closed Escape Raft.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1037"></child>
+        </children>
+    </item>
+    <item nodeId="node-1037">
+        <command xml:space="preserve">open raft</command>
+        <result xml:space="preserve">Putting key in ignition
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1038"></child>
+        </children>
+    </item>
+    <item nodeId="node-1038">
+        <command xml:space="preserve">enter raft</command>
+        <result xml:space="preserve">You get into Escape Raft.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1016">
+        <command xml:space="preserve">enter escape raft</command>
+        <result xml:space="preserve">You get into Escape Raft.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1003">
+        <command xml:space="preserve">down</command>
+        <result xml:space="preserve">
+Galley
+You are now in the hull of the boat. At the base of the stairs there is a bed, small office area, and kitchen, all in a studio layout.
+
+On Desk is Note.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1010"></child>
+            <child nodeId="node-1007"></child>
+            <child nodeId="node-1004"></child>
+        </children>
+    </item>
+    <item nodeId="node-1004">
+        <command xml:space="preserve">open filing cabinet</command>
+        <result xml:space="preserve">You open Filing cabinet, revealing Raft key.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1005"></child>
+        </children>
+    </item>
+    <item nodeId="node-1005">
+        <command xml:space="preserve">examine raft key</command>
+        <result xml:space="preserve">Regular sized key that says OCEAN EXPLORER on it. You think that was the name of the small raft up on the deck
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1006"></child>
+        </children>
+    </item>
+    <item nodeId="node-1006">
+        <command xml:space="preserve">Take raft key</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1007">
+        <command xml:space="preserve">examine filing cabinet</command>
+        <result xml:space="preserve">There is a single drawer in this filing cabinet, and it doesn't appear to be locked.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1008"></child>
+        </children>
+    </item>
+    <item nodeId="node-1008">
+        <command xml:space="preserve">open drawer</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1009"></child>
+        </children>
+    </item>
+    <item nodeId="node-1009">
+        <command xml:space="preserve">open filing cabinet</command>
+        <result xml:space="preserve">You open Filing cabinet.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1010">
+        <command xml:space="preserve">examine</command>
+        <result xml:space="preserve">What do you want to examine?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1011"></child>
+        </children>
+    </item>
+    <item nodeId="node-1011">
+        <command xml:space="preserve">examine galley</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1012"></child>
+        </children>
+    </item>
+    <item nodeId="node-1012">
+        <command xml:space="preserve">examine Galley</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1013"></child>
+        </children>
+    </item>
+    <item nodeId="node-1013">
+        <command xml:space="preserve">examine Filing cabinet</command>
+        <result xml:space="preserve">You see nothing special about Filing cabinet.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+</Skein>
